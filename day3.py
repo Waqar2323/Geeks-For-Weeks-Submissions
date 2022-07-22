@@ -59,9 +59,6 @@ input("Hit enter to continue: ")
 # to check if something is evenly divisable, do (x%y==0), where the y is the muiltiple -> modulus operator
 
 for x in range(1,101):
-   
-
-
     if (x%3==0 and x%5==0):
         print ("FizzBuzz")
     elif (x%3==0):
@@ -70,11 +67,3 @@ for x in range(1,101):
         print ("Buzz")
     else : 
         print (x)
-        
-
-
-
-
-
-
-
